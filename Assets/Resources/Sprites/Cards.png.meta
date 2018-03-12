@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: ac8f19255f2864d49b281e26a72fb465
+timeCreated: 1520601171
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ace_Clubs
+    21300002: Two_Clubs
+    21300004: Three_Clubs
+    21300006: Four_Clubs
+    21300008: Five_Clubs
+    21300010: Six_Clubs
+    21300012: Seven_Clubs
+    21300014: Eight_Clubs
+    21300016: Nine_Clubs
+    21300018: Ten_Clubs
+    21300020: Jack_Clubs
+    21300022: Queen_Clubs
+    21300024: King_Clubs
+    21300026: Ace_Hearts
+    21300028: Two_Hearts
+    21300030: Three_Hearts
+    21300032: Four_Hearts
+    21300034: Five_Hearts
+    21300036: Six_Hearts
+    21300038: Seven_Hearts
+    21300040: Eight_Hearts
+    21300042: Nine_Hearts
+    21300044: Ten_Hearts
+    21300046: Jack_Hearts
+    21300048: Queen_Hearts
+    21300050: King_Hearts
+    21300052: Ace_Spades
+    21300054: Two_Spades
+    21300056: Three_Spades
+    21300058: Four_Spades
+    21300060: Five_Spades
+    21300062: Six_Spades
+    21300064: Seven_Spades
+    21300066: Eight_Spades
+    21300068: Nine_Spades
+    21300070: Ten_Spades
+    21300072: Jack_Spades
+    21300074: Queen_Spades
+    21300076: King_Spades
+    21300078: Ace_Diamonds
+    21300080: Two_Diamonds
+    21300082: Three_Diamonds
+    21300084: Four_Diamonds
+    21300086: Five_Diamonds
+    21300088: Six_Diamonds
+    21300090: Seven_Diamonds
+    21300092: Eight_Diamonds
+    21300094: Nine_Diamonds
+    21300096: Ten_Diamonds
+    21300098: Jack_Diamonds
+    21300100: Queen_Diamonds
+    21300102: King_Diamonds
+    21300104: Back_Green
+    21300106: Back_Red
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ace_Clubs
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Two_Clubs
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Three_Clubs
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Four_Clubs
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Five_Clubs
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Six_Clubs
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Seven_Clubs
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Eight_Clubs
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Nine_Clubs
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ten_Clubs
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jack_Clubs
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Queen_Clubs
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: King_Clubs
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1250.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ace_Hearts
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Two_Hearts
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Three_Hearts
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Four_Hearts
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Five_Hearts
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Six_Hearts
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Seven_Hearts
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Eight_Hearts
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Nine_Hearts
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ten_Hearts
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jack_Hearts
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Queen_Hearts
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: King_Hearts
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 938.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ace_Spades
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Two_Spades
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Three_Spades
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Four_Spades
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Five_Spades
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Six_Spades
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Seven_Spades
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Eight_Spades
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Nine_Spades
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ten_Spades
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jack_Spades
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Queen_Spades
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: King_Spades
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 626.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ace_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Two_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Three_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Four_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Five_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Six_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Seven_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Eight_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Nine_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ten_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jack_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Queen_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: King_Diamonds
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 314.4
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Back_Green
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Back_Red
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2.399994
+        width: 223.53847
+        height: 312.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
