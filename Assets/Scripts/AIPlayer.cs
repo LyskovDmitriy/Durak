@@ -21,10 +21,11 @@ public class AIPlayer : Player
 	IEnumerator MakeMove()
 	{
 		yield return new WaitForSeconds(timeToMakeMove);
-
+		//loops through hand and tries to use all cards
 		for (int i = hand.Count - 1; i >= 0; i--)
 		{
-			if (ChooseCard(i, cardObjects[i].GetComponent<CardInteraction>())) //if card was successfully used
+			bool cardIsValid = ChooseCard(i, cardObjects[i].GetComponent<CardInteraction>());
+			if (cardIsValid) //if card was successfully used
 			{
 				yield break;
 			}

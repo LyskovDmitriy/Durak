@@ -4,7 +4,12 @@ using UnityEngine;
 public class Deck 
 {
 
+	public int CurrentSize { get { return (currentCardIndex + 1); } }
+	public bool isEmpty { get { return (currentCardIndex < 0); } }
+
+
 	private List<Card> cards;
+	private int currentCardIndex; //i.e. index of the card in the deck that will be drawn next
 
 
 	public Deck(bool isSmallDeck = true)
@@ -13,7 +18,7 @@ public class Deck
 
 		int startingNumber = 0;
 
-		if (isSmallDeck)
+		if (isSmallDeck) //a small deck doesn't have 2-5
 		{
 			startingNumber = 4;
 		}
@@ -25,32 +30,32 @@ public class Deck
 				cards.Add(new Card((Suit)suit, (Value)value));
 			}
 		}
+		currentCardIndex = cards.Count - 1;
 	}
 
 
 	private Deck() { }
 
-
-	public int GetFirstCardIndex()
-	{
-		return cards.Count - 1;
-	}
-
-
+	//A shortcut for getting trumps
 	public Card GetLastCard()
 	{
 		return cards[0];
 	}
 
 
-	public Card GetCard(int index)
+	public Card[] GetCards(int count)
 	{
-		if (index < 0 || cards.Count - 1 < index)
+		int cardsToDraw = (count < CurrentSize) ? count : CurrentSize;
+
+		Card[] cardsToReturn = new Card[cardsToDraw];
+
+		for (int i = 0; i < cardsToDraw; i++)
 		{
-			return null;
+			cardsToReturn[i] = cards[currentCardIndex];
+			currentCardIndex--;
 		}
 
-		return cards[index];
+		return cardsToReturn;
 	}
 
 
@@ -71,6 +76,7 @@ public class Deck
 	void ChangeCard(int oldIndex)
 	{
 		int newIndex = 0;
+		//get new index that doesn't equal the old one
 		do
 		{
 			newIndex = Random.Range(0, cards.Count);
@@ -85,6 +91,5 @@ public class Deck
 		Card tmp = cards[newIndex];
 		cards[newIndex] = cards[oldIndex];
 		cards[oldIndex] = tmp;
-		tmp = null;
 	}
 }

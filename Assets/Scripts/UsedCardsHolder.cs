@@ -9,10 +9,8 @@ public class UsedCardsHolder : MonoBehaviour
 	public Vector3 startingPositionForCards;
 	public float distanceBetweenCardsX;
 	public float distanceBetweenCardsY;
-	public event System.Action onCardMoved;
-
-
 	public float cardMovementSpeed;
+	public event System.Action onCardMoved;
 
 
 	private RectTransform rTrans;
@@ -21,7 +19,6 @@ public class UsedCardsHolder : MonoBehaviour
 	public void AddCard(RectTransform cardTransform)
 	{
 		cardTransform.SetParent(rTrans);
-
 		StartCoroutine(MoveTowardsCenter(cardTransform, CalculatePositionForLastChild()));
 	}
 
@@ -69,7 +66,8 @@ public class UsedCardsHolder : MonoBehaviour
 	{
 		bool isAttacker = (rTrans.childCount % 2 == 1);
 		Vector3 position = startingPositionForCards;
-		position += new Vector3(distanceBetweenCardsX * Mathf.FloorToInt((rTrans.childCount - 1) / 2), (isAttacker ? 0.0f : -distanceBetweenCardsY), 0.0f);
+		position += new Vector3(distanceBetweenCardsX * Mathf.FloorToInt((rTrans.childCount - 1) / 2), 
+			(isAttacker ? 0.0f : -distanceBetweenCardsY), 0.0f);
 		return position;
 	}
 }

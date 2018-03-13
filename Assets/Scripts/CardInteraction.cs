@@ -6,7 +6,7 @@ public class CardInteraction : MonoBehaviour
 {
 
 	public Player cardHolder;
-	public int indexInDeck;
+	public int indexInPlayerDeck;
 
 
 	private Sprite originalSprite;
@@ -18,7 +18,7 @@ public class CardInteraction : MonoBehaviour
 	{
 		if (cardHolder != null)
 		{
-			cardHolder.ChooseCard(indexInDeck, this);
+			cardHolder.ChooseCard(indexInPlayerDeck, this);
 		}
 	}
 

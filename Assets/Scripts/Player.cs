@@ -7,19 +7,11 @@ using UnityEngine.Events;
 public class Player : MonoBehaviour 
 {
 	
-	public int NumberOfCards 
-	{
-		get
-		{
-			if (hand != null) { return hand.Count; }
-			else { return 0; }
-		}
-	}
+	public int NumberOfCards { get { return hand.Count; } }
 
 
 	public ObjectPool cardImagesPool;
 	public float imageWidth = 190;
-	public RectTransform usedCardsHolder;
 	public Button endTurnButton;
 
 
@@ -34,10 +26,7 @@ public class Player : MonoBehaviour
 		{
 			for (int i = 0; i < cardsToAdd.Length; i++)
 			{
-				if (cardsToAdd[i] != null)
-				{
-					hand.Add(cardsToAdd[i]);
-				}
+				hand.Add(cardsToAdd[i]);
 			}
 
 			SortHand();
@@ -139,11 +128,6 @@ public class Player : MonoBehaviour
 
 		hand.Sort((x, y) => 
 			{
-				if (y == null)
-				{
-					return -1;
-				}
-
 				bool xIsTrump = (x.suit == trumpSuit);
 				bool yIsTrump = (y.suit == trumpSuit);
 
@@ -173,7 +157,9 @@ public class Player : MonoBehaviour
 			
 		Vector3 cardPosition = -new Vector3((hand.Count - 1) * imageWidth / 2, 0.0f, 0.0f);
 		Vector3 distanceBetweenCards;
+		//checks if the distance between cards should be less than default image width
 		bool hasEnoghSpaceForCards = -rTrans.sizeDelta.x / 2 < (cardPosition.x - imageWidth / 2);
+
 		if (hasEnoghSpaceForCards)
 		{
 			distanceBetweenCards = new Vector3(imageWidth, 0.0f, 0.0f);
@@ -186,22 +172,22 @@ public class Player : MonoBehaviour
 
 		for (int i = 0; i < hand.Count; i++, cardPosition += distanceBetweenCards)
 		{
-			Image cardImage = cardImagesPool.GetObject().GetComponent<Image>();
-			cardImage.transform.SetParent(transform);
-			cardImage.gameObject.SetActive(true);
-			cardImage.transform.localPosition = cardPosition;
+			GameObject cardObject = cardImagesPool.GetObject();
+			cardObject.transform.SetParent(transform);
+			cardObject.SetActive(true);
+			cardObject.transform.localPosition = cardPosition;
 
-			CardInteraction interactiveComponent = cardImage.GetComponent<CardInteraction>();
+			CardInteraction interactiveComponent = cardObject.GetComponent<CardInteraction>();
 			interactiveComponent.cardHolder = this;
-			interactiveComponent.indexInDeck = i;
+			interactiveComponent.indexInPlayerDeck = i;
 
-			cardObjects.Add(cardImage.gameObject);
+			cardObjects.Add(cardObject);
 		}
 
 		SetCardsSprites();
 	}
 
-
+	//is overriden for AI player to hide cards
 	protected virtual void SetCardsSprites()
 	{
 		for (int i = 0; i < cardObjects.Count; i++)
